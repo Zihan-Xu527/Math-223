@@ -1,0 +1,457 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     16233,        449]
+NotebookOptionsPosition[     12909,        387]
+NotebookOutlinePosition[     13313,        403]
+CellTagsIndexPosition[     13270,        400]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Math 223: Homework 7", "Title",
+ CellChangeTimes->{{3.819477029542458*^9, 3.8194770325147047`*^9}, {
+  3.887909218437387*^9, 
+  3.887909219491349*^9}},ExpressionUUID->"197654a4-4d8f-4ad2-acd2-\
+0426bba106a8"],
+
+Cell["<Zihan Xu>", "Author",
+ CellChangeTimes->{{3.819477041266364*^9, 3.81947704456911*^9}, {
+  3.887908895871005*^9, 
+  3.8879088986364813`*^9}},ExpressionUUID->"47fdc244-5ee2-4b42-93c3-\
+40f677fdf9ef"],
+
+Cell["<3/22/2023>", "Affiliation",
+ CellChangeTimes->{{3.8194774638175488`*^9, 3.819477466618027*^9}, {
+  3.887908902322919*^9, 
+  3.8879089072024307`*^9}},ExpressionUUID->"581392a7-3011-4211-898e-\
+5aefcdf8effb"],
+
+Cell[CellGroupData[{
+
+Cell["Problem 1", "Section",
+ CellChangeTimes->{{3.8194770755713477`*^9, 
+  3.8194770765366144`*^9}},ExpressionUUID->"3b0f5f64-fd7d-4b7d-9281-\
+4b7c9c73d5a2"],
+
+Cell[CellGroupData[{
+
+Cell["Find the first two terms of the asymptotic expansion of", \
+"Subsubsection",
+ CellChangeTimes->{{3.819477124705309*^9, 3.8194771397099257`*^9}, {
+  3.8879089570277157`*^9, 
+  3.887908972022924*^9}},ExpressionUUID->"d8fb54c8-1da0-4208-b74e-\
+3f8dbdd27abd"],
+
+Cell[TextData[{
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubsuperscriptBox["\[Integral]", "5", "9"], 
+    RowBox[{
+     FractionBox[
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+        RowBox[{"-", "x"}], " ", "t"}]], "t"], 
+     RowBox[{"\[DifferentialD]", "t"}]}]}], TraditionalForm]], 
+  "Subsubsection",ExpressionUUID->"4824494b-2abe-4acf-83f8-56d3ef646936"], 
+  "Subsubsection"],
+ StyleBox[",  ", "Subsubsection"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "->", "+"}], TraditionalForm]], "Subsubsection",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "06707b97-7b5c-4e56-8f9a-7858ed56045e"], "Subsubsection"],
+ StyleBox["\[Infinity].", "Subsubsection"]
+}], "Text",
+ CellChangeTimes->{{3.887909014646056*^9, 3.887909101333243*^9}, {
+  3.887909285812604*^9, 3.887909285812684*^9}},
+ TextAlignment->Center,ExpressionUUID->"885f06c8-bc1f-4baf-b5a4-9fb1b713b02e"],
+
+Cell[TextData[StyleBox["Solution:",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.8879099310402412`*^9, 
+  3.88790993299258*^9}},ExpressionUUID->"9281a424-41ff-4e29-9bde-\
+372034bdd49b"],
+
+Cell["", "Text",ExpressionUUID->"fa506222-b846-433d-8aec-e5869895e3df"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 2", "Section",
+ CellChangeTimes->{{3.819477185401244*^9, 
+  3.8194771863519216`*^9}},ExpressionUUID->"3f070b75-5760-46e2-8dfd-\
+1b5d3e237d45"],
+
+Cell[TextData[StyleBox["Use Watson\[CloseCurlyQuote]s lemma to determine the \
+asymptotic expansion of", "Subsubsection"]], "Text",
+ CellChangeTimes->{{3.8194771895995965`*^9, 3.8194771998661075`*^9}, {
+  3.887909119185858*^9, 
+  3.88790913764752*^9}},ExpressionUUID->"ac4970ba-4670-4dab-9885-\
+453ea799808e"],
+
+Cell[TextData[{
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"I", "(", "x", ")"}], "=", 
+    RowBox[{
+     SubsuperscriptBox["\[Integral]", "0", "\[Pi]"], 
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+        RowBox[{"-", "x"}], " ", "t"}]], " ", 
+      SuperscriptBox["t", 
+       RowBox[{
+        RowBox[{"-", "1"}], "/", "3"}]], 
+      RowBox[{"\[DifferentialD]", "t"}]}]}]}], TraditionalForm]], 
+  "Subsubsection",ExpressionUUID->"46195052-0050-44bd-be3a-bafe6ca0f6ce"], 
+  "Subsubsection"],
+ StyleBox[",  ", "Subsubsection"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "->", "+"}], TraditionalForm]], "Subsubsection",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "74fbccb8-7a73-4404-a6b6-6a55690c2e14"], "Subsubsection"],
+ StyleBox["\[Infinity].", "Subsubsection"]
+}], "Text",
+ CellChangeTimes->{{3.88790914720791*^9, 3.8879091912022533`*^9}, {
+  3.8879092826495943`*^9, 3.887909282649734*^9}},
+ TextAlignment->Center,ExpressionUUID->"f1ce2511-99fd-4be9-b638-84eb9c697d5e"],
+
+Cell[TextData[StyleBox["Solution:",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.8879099310402412`*^9, 
+  3.88790993299258*^9}},ExpressionUUID->"af3004fb-2cdf-4014-8500-\
+d0418d8faef3"],
+
+Cell["", "Text",ExpressionUUID->"598fb265-bd33-4338-941b-4e6ea35c5e2e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 3", "Section",
+ CellChangeTimes->{{3.8194772128885565`*^9, 
+  3.819477213817498*^9}},ExpressionUUID->"53360077-b126-4736-89d5-\
+442e353af9f0"],
+
+Cell[CellGroupData[{
+
+Cell["Use Laplace\[CloseCurlyQuote]s method to determine the leading behavior \
+of ", "Subsubsection",
+ CellChangeTimes->{{3.819477217465713*^9, 3.8194772281844006`*^9}, {
+  3.887909224147389*^9, 
+  3.8879092392145567`*^9}},ExpressionUUID->"fd8fe25a-0bda-453f-93cc-\
+c04259d41a4f"],
+
+Cell[TextData[{
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"I", "(", "x", ")"}], "=", 
+    RowBox[{
+     SubsuperscriptBox["\[Integral]", 
+      RowBox[{
+       RowBox[{"-", "1"}], "/", "2"}], 
+      RowBox[{"1", "/", "2"}]], 
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+        RowBox[{"-", "x"}], " ", 
+        SuperscriptBox["sin", "4"], "t"}]], " ", 
+      RowBox[{"\[DifferentialD]", "t"}]}]}]}], TraditionalForm]], 
+  "Subsubsection",ExpressionUUID->"3ffc8e07-16e3-468c-b7da-38e5d6ebd8b4"], 
+  "Subsubsection"],
+ StyleBox[",  ", "Subsubsection"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "->", "+"}], TraditionalForm]], "Subsubsection",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6650386a-9df7-41f2-8819-f1e112bea928"], "Subsubsection"],
+ StyleBox["\[Infinity].", "Subsubsection"]
+}], "Text",
+ CellChangeTimes->{{3.887909255615388*^9, 3.887909276929744*^9}},
+ TextAlignment->Center,ExpressionUUID->"fc5a9bc9-4e63-4d20-9b1e-87b14de54b1d"],
+
+Cell[TextData[StyleBox["Solution:",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.8879099310402412`*^9, 
+  3.88790993299258*^9}},ExpressionUUID->"a71c22ff-d074-40dc-bd69-\
+15b2add87cf1"],
+
+Cell["", "Text",ExpressionUUID->"94670b43-c4d6-4205-93a3-84e250878b50"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 4", "Section",
+ CellChangeTimes->{{3.8194772128885565`*^9, 3.819477213817498*^9}, {
+  3.887908940464303*^9, 
+  3.887908941256035*^9}},ExpressionUUID->"805d54e3-3baa-4355-9e3c-\
+5c3a31e73cf7"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "The ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["L", "p"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "acbc94c5-e163-496b-938f-01ab3fd29607"],
+ " norm of a function ",
+ Cell[BoxData[
+  FormBox["g", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5487ee4d-5dbf-4d4a-9972-1613ba072725"],
+ " is given by ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[DoubleVerticalBar]", "\|01d454", 
+    SubscriptBox["\[DoubleVerticalBar]", "p"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "756b03b1-589c-4274-996d-304d3a4db4a0"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{" ", "="}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "db5f5ebf-91dd-4199-84f9-b42b13961b12"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"I", "(", "p", ")"}], ")"}], 
+    RowBox[{"1", "/", "p"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7c44c3ef-99a4-4b14-bf44-dcf75db6820d"],
+ " where"
+}], "Subsubsection",
+ CellChangeTimes->{{3.819477217465713*^9, 3.8194772281844006`*^9}, {
+  3.887909301395597*^9, 
+  3.887909377184331*^9}},ExpressionUUID->"9c289d65-01ac-4cd6-89c2-\
+ecc0cb2200cb"],
+
+Cell[TextData[{
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"I", "(", "p", ")"}], "=", 
+    RowBox[{
+     SubsuperscriptBox["\[Integral]", "a", "b"], 
+     RowBox[{"|", 
+      RowBox[{"\|01d454", "(", "\|01d461", ")"}], 
+      SuperscriptBox["|", "p"], " ", 
+      RowBox[{"\[DifferentialD]", "t"}]}]}]}], TraditionalForm]], 
+  "Subsubsection",ExpressionUUID->"e758e2b5-c396-4990-b4d8-8171cd97799d"], 
+  "Subsubsection"],
+ StyleBox[".", "Subsubsection"]
+}], "Text",
+ CellChangeTimes->{{3.887909388780744*^9, 3.8879094361156187`*^9}},
+ TextAlignment->Center,ExpressionUUID->"0305371b-164b-43b5-be27-10da10180f67"],
+
+Cell[TextData[{
+ StyleBox["Assuming that |\|01d454(\|01d461)|\[Element] ", "Subsubsection"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   SuperscriptBox["C", "4"], TraditionalForm]], "Subsubsection",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ace44e7d-56e3-42d1-8bcb-761a0a6cf297"], "Subsubsection"],
+ StyleBox[" and that it attains its unique maximum on ", "Subsubsection"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "=", "c"}], TraditionalForm]], "Subsubsection",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "188dee69-8d9e-493a-980e-ab64dccbbdc6"], "Subsubsection"],
+ StyleBox[" inside ", "Subsubsection"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{"[", 
+    RowBox[{"a", ",", "b"}], "]"}], TraditionalForm]], "Subsubsection",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5775e532-6af6-4acd-8ad9-ce99bd7ba867"], "Subsubsection"],
+ StyleBox[" with ", "Subsubsection"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{"g", "(", "c", ")"}], TraditionalForm]], "Subsubsection",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "99658938-8b3f-444b-b2f4-c92322b82d1c"], "Subsubsection"],
+ StyleBox[" =\:0338 0, use Laplace\[CloseCurlyQuote]s method to show that the \
+", "Subsubsection"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   SubscriptBox["L", "p"], TraditionalForm]], "Subsubsection",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "efd603d6-d8ab-4c70-ab02-df765c9e7f1a"], "Subsubsection"],
+ StyleBox[" norm converges to the \[OpenCurlyDoubleQuote]maximum\
+\[CloseCurlyDoubleQuote] norm as ", "Subsubsection"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{"p", "->"}], TraditionalForm]], "Subsubsection",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a79610d4-8d73-4628-9536-37eb02c6308a"], "Subsubsection"],
+ StyleBox["\[Infinity].", "Subsubsection"]
+}], "Text",
+ CellChangeTimes->{{3.887909455785839*^9, 3.8879095354763327`*^9}, {
+  3.8879095863675833`*^9, 
+  3.887909649340312*^9}},ExpressionUUID->"ee9d43be-5a5b-4665-bfa2-\
+f93c3a49bb95"],
+
+Cell[TextData[StyleBox["Solution:",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.8879099310402412`*^9, 
+  3.88790993299258*^9}},ExpressionUUID->"2e01660f-1def-47aa-9d89-\
+0bcbbc37f09e"],
+
+Cell["", "Text",ExpressionUUID->"1fc8fda4-ad2f-45a2-a4a8-13352f4d1f6d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 5", "Section",
+ CellChangeTimes->{{3.8194772128885565`*^9, 3.819477213817498*^9}, {
+  3.887908943106114*^9, 
+  3.887908943688756*^9}},ExpressionUUID->"8f7d651d-aaa4-427d-ac6d-\
+cd8482d6939f"],
+
+Cell[CellGroupData[{
+
+Cell["Show that", "Subsubsection",
+ CellChangeTimes->{{3.819477217465713*^9, 3.8194772281844006`*^9}, {
+  3.887909662433093*^9, 
+  3.88790966835752*^9}},ExpressionUUID->"03a47f70-f539-4bae-bc34-\
+55283b95909d"],
+
+Cell[TextData[{
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubsuperscriptBox["\[Integral]", "0", "\[Infinity]"], 
+    RowBox[{
+     RowBox[{"log", "(", 
+      FractionBox["u", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", 
+         RowBox[{"-", "u"}]]}]], ")"}], "  ", 
+     FractionBox[
+      SuperscriptBox["e", 
+       RowBox[{
+        RowBox[{"-", "k"}], " ", "u"}]], "u"], 
+     RowBox[{"\[DifferentialD]", "u"}]}]}], TraditionalForm]], 
+  "Subsubsection",ExpressionUUID->"a3fd1774-1903-4d32-98e5-8c7b1b78e907"], 
+  "Subsubsection"],
+ StyleBox[" \[Tilde] ", "Subsubsection"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    RowBox[{"2", "k"}]], TraditionalForm]], "Subsubsection",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7f2360af-8627-4d85-8f7f-e861b05b27e6"], "Subsubsection"],
+ StyleBox[",   ", "Subsubsection"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{" ", 
+    RowBox[{"k", "->", "\[Infinity]"}]}], TraditionalForm]], "Subsubsection",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9ebb24d3-8040-4bc0-a7f4-68c8bf5e0dbf"], "Subsubsection"],
+ StyleBox[".", "Subsubsection"]
+}], "Text",
+ CellChangeTimes->{{3.887909700288044*^9, 3.8879098518113832`*^9}},
+ TextAlignment->Center,ExpressionUUID->"c60f3dcd-da00-43b9-b454-439dc9fefb4f"],
+
+Cell[TextData[StyleBox["Solution:",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.8879099310402412`*^9, 
+  3.88790993299258*^9}},ExpressionUUID->"58544157-c898-496e-968e-\
+6fc722f2de1f"],
+
+Cell["", "Text",ExpressionUUID->"7f1b80c6-7f2a-4ad6-9174-a5e8b9334796"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{760, 799},
+WindowMargins->{{Automatic, 11}, {Automatic, 0}},
+FrontEndVersion->"13.1 for Mac OS X x86 (64-bit) (2022\:5e746\:670816\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d75e67b7-b5ca-4e2d-9fea-0daa88af3a50"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 214, 4, 98, "Title",ExpressionUUID->"197654a4-4d8f-4ad2-acd2-0426bba106a8"],
+Cell[797, 28, 204, 4, 31, "Author",ExpressionUUID->"47fdc244-5ee2-4b42-93c3-40f677fdf9ef"],
+Cell[1004, 34, 213, 4, 31, "Affiliation",ExpressionUUID->"581392a7-3011-4211-898e-5aefcdf8effb"],
+Cell[CellGroupData[{
+Cell[1242, 42, 158, 3, 67, "Section",ExpressionUUID->"3b0f5f64-fd7d-4b7d-9281-4b7c9c73d5a2"],
+Cell[CellGroupData[{
+Cell[1425, 49, 261, 5, 45, "Subsubsection",ExpressionUUID->"d8fb54c8-1da0-4208-b74e-3f8dbdd27abd"],
+Cell[1689, 56, 899, 23, 47, "Text",ExpressionUUID->"885f06c8-bc1f-4baf-b5a4-9fb1b713b02e"],
+Cell[2591, 81, 193, 4, 35, "Text",ExpressionUUID->"9281a424-41ff-4e29-9bde-372034bdd49b"],
+Cell[2787, 87, 71, 0, 35, "Text",ExpressionUUID->"fa506222-b846-433d-8aec-e5869895e3df"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2907, 93, 156, 3, 67, "Section",ExpressionUUID->"3f070b75-5760-46e2-8dfd-1b5d3e237d45"],
+Cell[3066, 98, 309, 5, 40, "Text",ExpressionUUID->"ac4970ba-4670-4dab-9885-453ea799808e"],
+Cell[3378, 105, 1030, 27, 45, "Text",ExpressionUUID->"f1ce2511-99fd-4be9-b638-84eb9c697d5e"],
+Cell[4411, 134, 193, 4, 35, "Text",ExpressionUUID->"af3004fb-2cdf-4014-8500-d0418d8faef3"],
+Cell[4607, 140, 71, 0, 35, "Text",ExpressionUUID->"598fb265-bd33-4338-941b-4e6ea35c5e2e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4715, 145, 156, 3, 67, "Section",ExpressionUUID->"53360077-b126-4736-89d5-442e353af9f0"],
+Cell[CellGroupData[{
+Cell[4896, 152, 281, 5, 45, "Subsubsection",ExpressionUUID->"fd8fe25a-0bda-453f-93cc-c04259d41a4f"],
+Cell[5180, 159, 1003, 27, 45, "Text",ExpressionUUID->"fc5a9bc9-4e63-4d20-9b1e-87b14de54b1d"],
+Cell[6186, 188, 193, 4, 35, "Text",ExpressionUUID->"a71c22ff-d074-40dc-bd69-15b2add87cf1"],
+Cell[6382, 194, 71, 0, 35, "Text",ExpressionUUID->"94670b43-c4d6-4205-93a3-84e250878b50"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6502, 200, 205, 4, 67, "Section",ExpressionUUID->"805d54e3-3baa-4355-9e3c-5c3a31e73cf7"],
+Cell[CellGroupData[{
+Cell[6732, 208, 1217, 38, 48, "Subsubsection",ExpressionUUID->"9c289d65-01ac-4cd6-89c2-ecc0cb2200cb"],
+Cell[7952, 248, 627, 16, 46, "Text",ExpressionUUID->"0305371b-164b-43b5-be27-10da10180f67"],
+Cell[8582, 266, 1968, 45, 99, "Text",ExpressionUUID->"ee9d43be-5a5b-4665-bfa2-f93c3a49bb95"],
+Cell[10553, 313, 193, 4, 35, "Text",ExpressionUUID->"2e01660f-1def-47aa-9d89-0bcbbc37f09e"],
+Cell[10749, 319, 71, 0, 35, "Text",ExpressionUUID->"1fc8fda4-ad2f-45a2-a4a8-13352f4d1f6d"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10869, 325, 205, 4, 67, "Section",ExpressionUUID->"8f7d651d-aaa4-427d-ac6d-cd8482d6939f"],
+Cell[CellGroupData[{
+Cell[11099, 333, 210, 4, 45, "Subsubsection",ExpressionUUID->"03a47f70-f539-4bae-bc34-55283b95909d"],
+Cell[11312, 339, 1287, 35, 49, "Text",ExpressionUUID->"c60f3dcd-da00-43b9-b454-439dc9fefb4f"],
+Cell[12602, 376, 193, 4, 35, "Text",ExpressionUUID->"58544157-c898-496e-968e-6fc722f2de1f"],
+Cell[12798, 382, 71, 0, 35, "Text",ExpressionUUID->"7f1b80c6-7f2a-4ad6-9174-a5e8b9334796"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
